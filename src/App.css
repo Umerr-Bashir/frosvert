@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 820px;
+}
+.background-image {
+  background-image: url("/public/bg-dark2.jpg"); 
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+h1{
+  font-size:40px;
+  color:white;
+  font-family:revert;
+  text-shadow: 2px 2px 2px white;
+}
+
+.converter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 55px;
+  color: white;
+  border-radius:20px;
+  border:5px solid black;
+}
+
+.grid-container {
+  display: grid;
+  height: 200px;
+  align-content: center;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  background-color: black;
+  padding: 20px;
+  margin:10px 0;
+}
+
+.grid-container > div {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 15px 0;
+  height:155px;
+  font-family:ui-monospace;
+  font-size: 34px;
+  color:#6cbfff;
+  
+}
+select{
+  border:2px solid grey;
+  outline:none;
+}
+.selecttemp{
+  padding:9px;
+  width:200px;
+  margin:5px;
+  border:2px solid rgb(0, 0, 0);
+  border-radius:7px;
+}
+.selectinput{
+  background-color: rgb(249, 249, 249);
+  border:2px solid rgb(0, 0, 0);
+  border-radius:8px;
+  outline:none;
+  padding:9px;
+  margin:5px 10px;
+  width:100px;
+  font:bold;
+  font-size:15px;
+}
+.tempoutput{
+  pointer-events: none;
+  text-align: center;
+  font-size: 30px;
+  padding:0 15px;
+  margin:0px 10px;
+  width:100px;
+  height:100px;
+  color:white;
+  outline:none;
+  border:2px solid black;
+  background-color: rgb(0, 0, 0);
+  font-family: math;
+}
+
+.convert-Btn{
+  padding:10px;
+  background-color: #2281c9;
+  color:white;
+  outline:none;
+  border:2px solid black;
+  border-radius:10px;
+  
+}
+
+select{
+  font-size: 15px;
+  font:bold;
+  background-color: rgb(255, 255, 255);
+}
+
