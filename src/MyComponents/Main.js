@@ -15,29 +15,30 @@ const BackgroundContent = (props) => {
 
     const [inputTemp, setinputTemp] = useState("")
     
+    
     const handleClick = () => {
         if (isNaN(inputTemp) || inputTemp===""){
-            alert("Input in not valid number");
+            alert("Input is not a valid number!!");
             return;
         }
         else
             if (inputTempType === "Celsius") {
                 const output1 = parseFloat(inputTemp) + 273;
-                setOutput1(output1.toFixed(1))
+                setOutput1(output1.toFixed(1).concat("°"))
                 const output2 = (inputTemp * 9 / 5) + 32;
-                setOutput2(output2.toFixed(1))
+                setOutput2(output2.toFixed(1).concat("°"))
 
             } else if (inputTempType === "Fahrenheit") {
                 const output1 = parseFloat(inputTemp - 32) * 5 / 9 + 273.15;
-                setOutput1(output1.toFixed(1))
+                setOutput1(output1.toFixed(1).concat("°"))
                 const output2 = parseFloat(inputTemp - 32) * 5 / 9;
-                setOutput2(output2.toFixed(1))
+                setOutput2(output2.toFixed(1).concat("°"))
 
             } else if (inputTempType === "Kelvin") {
                 const output1 = parseFloat(inputTemp) - 273.15;
-                setOutput1(output1.toFixed(1))
+                setOutput1(output1.toFixed(1).concat("°"))
                 const output2 = (parseFloat(inputTemp) - 273.15) * 9 / 5 + 32;
-                setOutput2(output2.toFixed(1))
+                setOutput2(output2.toFixed(1).concat("°"))
 
             } else {
                 console.error("error")
@@ -91,7 +92,7 @@ const BackgroundContent = (props) => {
         <div className="container background-image">
             
                 <div className="overlay">
-                    <h1>Temperature Converter</h1>
+                    <h1>Your go-to Temperature Converter!</h1>
                 </div>
                 <div className="converter">
                     <div className="innerDiv">
@@ -109,7 +110,7 @@ const BackgroundContent = (props) => {
                         </select>
 
                         <input 
-                        className="selectinput" type="text" name="result" onChange={handleInputChange} placeholder={placeholder} />
+                        className="selectinput" type="number" name="result" onChange={handleInputChange} placeholder={placeholder} />
 
                         <button className="convert-Btn" onClick={handleClick}>Convert</button>
                         
@@ -123,6 +124,8 @@ const BackgroundContent = (props) => {
                     </div>
 
                 </div>
+                <div className="copyright">Umerr &copy;Copyright 2023 All Rights Reserved.</div>
+
         </div>
 
 
