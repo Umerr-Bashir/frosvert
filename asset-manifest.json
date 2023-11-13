@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/frosvert/static/css/main.3438d5a7.css",
+    "main.js": "/frosvert/static/js/main.b087ebd7.js",
+    "static/js/787.333ed46d.chunk.js": "/frosvert/static/js/787.333ed46d.chunk.js",
+    "static/media/bg-dark2.jpg": "/frosvert/static/media/bg-dark2.3dd2a423adb5b1b138c8.jpg",
+    "index.html": "/frosvert/index.html",
+    "main.3438d5a7.css.map": "/frosvert/static/css/main.3438d5a7.css.map",
+    "main.b087ebd7.js.map": "/frosvert/static/js/main.b087ebd7.js.map",
+    "787.333ed46d.chunk.js.map": "/frosvert/static/js/787.333ed46d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3438d5a7.css",
+    "static/js/main.b087ebd7.js"
+  ]
+}
