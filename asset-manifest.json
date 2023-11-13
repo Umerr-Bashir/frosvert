@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/frosvert/static/css/main.148c328e.css",
+    "main.css": "/frosvert/static/css/main.36a1171f.css",
     "main.js": "/frosvert/static/js/main.0bf03ca3.js",
     "static/js/787.333ed46d.chunk.js": "/frosvert/static/js/787.333ed46d.chunk.js",
     "static/media/bg-dark2.jpg": "/frosvert/static/media/bg-dark2.3dd2a423adb5b1b138c8.jpg",
     "static/media/bg-dark4.jpg": "/frosvert/static/media/bg-dark4.e895744d7b20f6eee8e2.jpg",
     "index.html": "/frosvert/index.html",
-    "main.148c328e.css.map": "/frosvert/static/css/main.148c328e.css.map",
+    "main.36a1171f.css.map": "/frosvert/static/css/main.36a1171f.css.map",
     "main.0bf03ca3.js.map": "/frosvert/static/js/main.0bf03ca3.js.map",
     "787.333ed46d.chunk.js.map": "/frosvert/static/js/787.333ed46d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.148c328e.css",
+    "static/css/main.36a1171f.css",
     "static/js/main.0bf03ca3.js"
   ]
 }
