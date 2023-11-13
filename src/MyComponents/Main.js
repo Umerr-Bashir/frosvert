@@ -96,7 +96,7 @@ const BackgroundContent = (props) => {
                 </div>
                 <div className="converter">
                     <div className="innerDiv">
-                        <div><h2>FROM</h2></div>
+                        <div><h2><span className="span-1">F</span>ROS<span className="span-1">V</span>ERT</h2></div>
 
                         <select name="temp" 
                         className="selecttemp" 
