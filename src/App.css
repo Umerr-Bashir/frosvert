@@ -27,13 +27,13 @@ h1{
   text-shadow: rgb(255, 255, 255) 1px 0 1px;
 }
 .converter .innerDiv h2{
-  color:#6395ea;
-  font-size: 20px;
+  color:#3474e0;
+  font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: rgb(16, 50, 204) 1px 0px 15px;
 }
 .span-1{
-  font-size: 25px;
+  font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: rgb(16, 50, 204) 0px 7px 15px;
 }
@@ -66,8 +66,8 @@ h1{
   text-align: center;
   padding: 15px 0;
   height:155px;
-  font-family:ui-monospace;
-  font-size: 33px;
+  font-family:Georgia, 'Times New Roman', Times, serif;;
+  font-size: 28px;
   color:#6cbfff;
   text-shadow: rgb(0, 4, 255) 1px 0 10px;
   
